@@ -60,6 +60,7 @@ nav > div > p {
 nav > div > .contact-numbers {
 	display: flex;
 	flex-direction: column;
+	text-align: right;
 }
 
 .container {
