@@ -11,6 +11,10 @@ body {
 }
 
 nav {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
 	width: 100%;
 	padding: 2px 18px;
 	background-color: #f66a80;
@@ -60,7 +64,7 @@ nav > div > .contact-numbers {
 
 .container {
 	max-width: 960px;
-	margin: 26px auto 26px auto;
+	margin: 82px auto 26px auto;
 	background-color: rgb(243, 243, 243);
 	border-radius: 4px;
 	padding: 18px;
@@ -166,12 +170,7 @@ footer {
 		padding: 10px;
 	}
 	nav {
-		top: 0;
-		left: 0;
-		right: 0;
-		position: fixed;
 		padding: 4px 18px;
-		/* border-radius: 6px; */
 	}
 
 	nav > div > div > a > p {
