@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+	<h1>Welcome to The Watermelon Guys</h1>
+	<hr />
+	<div class="content-wrapper">
+		<div class="content">
+			<div class="info">
+				<ul>
+					{% for post in site.posts %}
+					<li>
+						<a href="{{ post.url }}">{{ post.title }}</a>
+						<p>{{post.excerpt}}</p>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="contact-form">
+				<h2>Contact us!</h2>
+				<form action="https://getform.io/f/dfcf12ec-f86f-474d-a513-19f58e1472c7" method="POST">
+					<div>
+						<input type="text" name="name" placeholder="Your name" />
+
+						<input type="text" name="subject" placeholder="Subject e.g. pricing, delivery, collection" />
+					</div>
+					<input type="email" name="customer-email" placeholder="Your email address" />
+					<textarea
+						id="subject"
+						name="subject"
+						placeholder="Your message..."
+						style="height: 120px;"
+					></textarea>
+
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+			<img class="end-image" src="./images/watermelon-cliparts/Watermelon-Clip-Art-6.png" alt="" />
+		</div>
+		<div class="sidebar">
+			<span></span>
+			<p>We do deliveries with-in 2 hours of ordering. We deliver all over Greater London.</p>
+		</div>
+	</div>
