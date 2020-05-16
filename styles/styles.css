@@ -1,8 +1,7 @@
 body {
-	background: url(../images/background.jpg), rgb(74, 109, 90);
+	background: url(../images/background.jpg), rgb(64, 146, 101);
 	background-position: top center;
 	background-size: cover;
-	/* background-attachment: fixed; */
 	font-family: "Quicksand", sans-serif;
 }
 
