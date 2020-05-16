@@ -7,7 +7,7 @@ title: Watermelon Guys
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>{{layout.title}}</title>
+		<title>{{layout.title}} {% if page.title %} | {{page.title}} {% endif %}</title>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap"
 			rel="stylesheet"
@@ -36,6 +36,10 @@ title: Watermelon Guys
 			<div class="content-wrapper">
 				{{content}}
 				<div class="sidebar">
+					{% if page.title contains "About" %} 
+					{% else %}
+					<h2><a href="{{ './about' | relative_url }}">Find out more about us.</a></h2>
+					{% endif %}
 					<span></span>
 					<p>From Moroccan soils to your front door with-in 2 hours. We deliver all over Greater London.</p>
 					<p>Guaranteed customer satisfaction</p>
