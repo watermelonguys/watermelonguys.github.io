@@ -78,6 +78,14 @@ title: Watermelon Guys
 					<p>From Moroccan soils to your front door with-in 2 hours. We deliver all over Greater London.</p>
 					<p>Guaranteed customer satisfaction</p>
 					<p>We promise quality watermelons from the farms of Morocco, </p>
+					<!-- Load Facebook SDK for JavaScript -->
+					<div id="fb-root"></div>
+
+					<!-- Your share button code -->
+					<div class="fb-share-button" 
+						data-href="https://watermelonguys.co.uk/" 
+						data-layout="button_count">
+					</div>
 					<div>
 						<h3>What customers say about us</h3>
 						<p> "Speedy delivery once again."<br /><strong>Susan, Putney.</strong> </p>
@@ -87,5 +95,14 @@ title: Watermelon Guys
 			</div>
 		</div>
 		<footer>Copyright of Watermelon Guys 2020 &copy;</footer>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 	</body>
 </html>
