@@ -15,6 +15,20 @@ title: Watermelon Guys
 		<meta itemprop="description" content="{{page.description}}">
 		<meta itemprop="image" content="{{ './images/meta.JPG' | relative_url }}">
 
+		<!-- Facebook Meta Tags -->
+		<meta property="og:url" content="https://watermelonguys.co.uk">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="{{layout.title}} {% if page.title %} | {{page.title}} {% endif %}">
+		<meta property="og:description" content="{{page.description}}">
+		<meta property="og:image" content="{{ './images/meta.JPG' | relative_url }}">
+
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="{{layout.title}} {% if page.title %} | {{page.title}} {% endif %}">
+		<meta name="twitter:description" content="{{page.description}}">
+		<meta name="twitter:image" content="{{ './images/meta.JPG' | relative_url }}">
+
+
 		<meta property="og:image" content="{{ './images/meta.JPG' | relative_url }}">
 		<meta property="og:url" content="{{ './' | relative_url }}">
 
