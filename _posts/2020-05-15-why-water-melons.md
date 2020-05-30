@@ -2,6 +2,7 @@
 layout: post
 title:  "Why watermelons?"
 date:   2020-05-15 23:06:15 +0100
+description: "Why are watermelons one of the best fruits?"
 categories: []
 excerpt_separator: <!--more-->
 ---
