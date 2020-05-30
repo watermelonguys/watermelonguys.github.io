@@ -1,45 +1,41 @@
----
-title: Watermelon Guys
----
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="{{page.description}}">
+		<meta name="description" content="Page not found!">
 		<meta name="robots| content="index, follow">
 
 		<!-- Google / Search Engine Tags -->
-		<meta itemprop="name" content="{{layout.title}} {% if page.title %} | {{page.title}} {% endif %}">
-		<meta itemprop="description" content="{{page.description}}">
-		<meta itemprop="image" content="{{ './images/meta.JPG' | relative_url }}">
+		<meta itemprop="name" content="Watermelon Guys  | Page not found! ">
+		<meta itemprop="description" content="Page not found!">
+		<meta itemprop="image" content="/images/meta.JPG">
 
 		<!-- Facebook Meta Tags -->
 		<meta property="og:url" content="https://watermelonguys.co.uk">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="{{layout.title}} {% if page.title %} | {{page.title}} {% endif %}">
-		<meta property="og:description" content="{{page.description}}">
-		<meta property="og:image" content="{{ './images/meta.JPG' | relative_url }}">
+		<meta property="og:title" content="Watermelon Guys  | Page not found! ">
+		<meta property="og:description" content="Page not found!">
+		<meta property="og:image" content="/images/meta.JPG">
 
 		<!-- Twitter Meta Tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:title" content="{{layout.title}} {% if page.title %} | {{page.title}} {% endif %}">
-		<meta name="twitter:description" content="{{page.description}}">
-		<meta name="twitter:image" content="{{ './images/meta.JPG' | relative_url }}">
+		<meta name="twitter:title" content="Watermelon Guys  | Page not found! ">
+		<meta name="twitter:description" content="Page not found!">
+		<meta name="twitter:image" content="/images/meta.JPG">
 
 
-		<meta property="og:image" content="{{ './images/meta.JPG' | relative_url }}">
-		<meta property="og:url" content="{{ './' | relative_url }}">
+		<meta property="og:image" content="/images/meta.JPG">
+		<meta property="og:url" content="/">
 
-		<title>{{layout.title}} {% if page.title %} | {{page.title}} {% endif %}</title>
+		<title>Watermelon Guys  | Page not found! </title>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="icon"  type="image/png" href="{{ './images/favicon.ico' | relative_url }}">
-		<link rel="stylesheet" href="{{ './styles/normalize.css' | relative_url }}" />
-		<link rel="stylesheet" href="{{ './styles/styles.css' | relative_url }}" />
+		<link rel="icon"  type="image/png" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/styles/normalize.css" />
+		<link rel="stylesheet" href="/styles/styles.css" />
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167951651-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -65,10 +61,23 @@ title: Watermelon Guys
 			</div>
 		</nav>
 		<div class="container">
-			<h1>{{page.title}}</h1>
+			<h1>Page not found!</h1>
 			<hr />
 			<div class="content-wrapper">
-				{{content}}
+				<style type="text/css" media="screen">
+	h1 {
+		margin: 30px 0;
+		font-size: 4em;
+		line-height: 1;
+		letter-spacing: -1px;
+	}
+</style>
+
+<h1>404</h1>
+
+<p><strong>Page not found :(</strong></p>
+<p>The requested page could not be found.</p>
+
 				<div class="sidebar">
 					<!-- Load Facebook SDK for JavaScript -->
 					<div id="fb-root"></div>
@@ -81,10 +90,9 @@ title: Watermelon Guys
 					<a class="twitter-share-button"
 						href="https://twitter.com/intent/tweet?text=These%20guys%20have%20the%20best%20watermelons!%20https://watermelonguys.co.uk/%20#watermelonguys">
 					Tweet</a>
-					{% if page.title contains "About" %} 
-					{% else %}
-					<h2><a href="{{ './about' | relative_url }}">Find out more about us.</a></h2>
-					{% endif %}
+					
+					<h2><a href="/about">Find out more about us.</a></h2>
+					
 					<span></span>
 					<p>From Moroccan soils to your front door with-in 2 hours. We deliver all over Greater London.</p>
 					<p>Guaranteed customer satisfaction</p>
