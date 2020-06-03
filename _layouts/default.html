@@ -28,7 +28,6 @@ title: Watermelon Guys
 		<meta name="twitter:description" content="{{page.description}}">
 		<meta name="twitter:image" content="{{ './images/meta.JPG' | relative_url }}">
 
-
 		<meta property="og:image" content="{{ './images/meta.JPG' | relative_url }}">
 		<meta property="og:url" content="{{ './' | relative_url }}">
 
@@ -82,8 +81,8 @@ title: Watermelon Guys
 						href="https://twitter.com/intent/tweet"
 						data-hashtags="watermelonguys">
 					Tweet</a>
-					{% if page.title contains "About" %} 
-					{% else %}
+					<!-- {% if page.title contains "About" %} 
+					{% else %} -->
 					<h2><a href="{{ './about' | relative_url }}">Find out more about us.</a></h2>
 					{% endif %}
 					<span></span>
